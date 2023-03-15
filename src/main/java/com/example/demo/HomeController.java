@@ -12,5 +12,10 @@ public class HomeController {
         return "Hello World";
     }
 
+    @GetMapping("/")
+    public String test() {
+        return "Test It Up";
+    }
+
     // Comment
 }
